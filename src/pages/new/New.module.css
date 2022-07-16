@@ -1,0 +1,11 @@
+.new {
+    display: flex;
+}
+.newContainer {
+    width: 100%;
+}
+
+.dark {
+    background-color: #111 !important;
+    color: #777 !important;
+}

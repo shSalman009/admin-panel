@@ -1,0 +1,49 @@
+.listTable {
+    margin: 15px 30px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 20px;
+    border-radius: 10px;
+}
+.tableCell {
+    color: #777 !important;
+}
+
+.listTable h4 {
+    text-transform: uppercase;
+    color: #777;
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.cellWrapper {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    display: flex;
+    gap: 10px;
+}
+.cellWrapper img {
+    max-width: 100%;
+    object-fit: cover;
+}
+.cellWrapper {
+    white-space: nowrap;
+}
+
+.status {
+    border: 0.5px dashed lightgray;
+    padding: 10px;
+    border-radius: 5px;
+}
+.Pending {
+    background-color: rgba(255, 0, 0, 0.216);
+}
+.Approved {
+    background-color: rgba(172, 255, 47, 0.388);
+}
+
+.tableContainer {
+}
+.tableContainer h4 {
+}

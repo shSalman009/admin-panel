@@ -1,0 +1,31 @@
+.datatable {
+    margin: 30px 30px 15px 30px;
+}
+.dark {
+    background-color: #111;
+}
+.datatable * {
+    color: #777;
+}
+.datatable a {
+    text-decoration: none;
+    color: #777;
+    font-size: 22px;
+}
+.datatable a h4 {
+}
+.cellButton {
+    display: flex;
+    gap: 15px;
+}
+.cellButton > div {
+    padding: 1px 12px;
+    color: #fff;
+    border-radius: 2px;
+}
+.cellButton .view {
+    background-color: green;
+}
+.cellButton .delete {
+    background-color: red;
+}

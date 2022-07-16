@@ -1,0 +1,10 @@
+.single {
+    display: flex;
+}
+.singleContainer {
+    flex: 11;
+}
+
+.dark {
+    background-color: #111;
+}

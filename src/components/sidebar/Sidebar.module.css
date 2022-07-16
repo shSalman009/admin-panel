@@ -1,0 +1,36 @@
+.sidebar {
+    padding: 10px;
+    border-right: 0.5px solid lightgray;
+    min-height: 100vh;
+    color: #777;
+}
+.dark {
+    background-color: #111;
+    color: #777;
+}
+.sidebar a {
+    text-decoration: none;
+    color: #777;
+}
+
+/* Bottom */
+.bottom {
+    display: flex;
+}
+.bottom div {
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #777;
+    margin: 10px;
+    cursor: pointer;
+}
+.light {
+    background-color: #fff;
+}
+
+/* Hover */
+
+.center ul li:hover {
+    background-color: #ddd;
+}

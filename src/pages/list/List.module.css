@@ -1,0 +1,11 @@
+.list {
+    display: flex;
+}
+.listContainer {
+    flex: 11;
+}
+
+.dark {
+    background-color: #111;
+    color: #777;
+}

@@ -1,0 +1,47 @@
+.widget {
+    margin: 30px 30px 15px 30px;
+}
+.items {
+    display: flex;
+    justify-content: space-between;
+    color: #333;
+    gap: 30px;
+}
+.item {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 15px;
+    flex: 1;
+    border-radius: 10px;
+}
+.item h3 {
+    font-size: 35px;
+    margin: 20px 0px;
+    font-weight: 400;
+}
+.item div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.top {
+}
+.top h4 {
+    text-transform: uppercase;
+    color: #777;
+}
+.top div {
+    color: green;
+}
+.top div span {
+}
+.bottom {
+}
+.bottom p {
+    padding: 5px 0px;
+    border-bottom: 0.5px solid lightgray;
+}
+.bottom svg {
+    font-size: 30px;
+    padding: 5px;
+    border-radius: 5px;
+}
